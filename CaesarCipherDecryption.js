@@ -34,7 +34,7 @@ function rot13(str) { // LBH QVQ VG!
     
   }
   
-  return newString;
+  return caesarsCipher;
   
 }
 
