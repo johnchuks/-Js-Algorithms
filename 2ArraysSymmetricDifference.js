@@ -26,15 +26,16 @@ for (i = 0; i < arr2.length; i++) {
   
   // this loop returns both arrays as a single array if all the items are present in both arr1 and arr2
   for (i = 0; i < arr1.length; i++) {
-    
+    // set a count
     var count =0;
     
     for (j = 0; j < arr2.length; j++) {
-      
+      // check if items are in both arrays
       if (arr1[i] === arr2[j]){
         
         count++;
       }
+      // this statement checks if each item is present in both arrays
      if (count > 1) {
        
        symArr = arr1.concat(arr2);
